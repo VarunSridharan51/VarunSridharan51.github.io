@@ -1,122 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><link rel="stylesheet" href="normalize.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Varun Sridharan Portfolio Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <!-- Update these with your own fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun Sridharan | Applied AI Engineer</title>
+    <meta name="description" content="Varun Sridharan: Senior Data Scientist and Applied AI Engineer building production multi-agent systems, RAG, and LLM inference platforms.">
+    <meta property="og:title" content="Varun Sridharan | Applied AI Engineer">
+    <meta property="og:description" content="Production multi-agent systems, RAG, and LLM inference platforms. 6+ years in ML engineering, 2 patents.">
+    <meta property="og:image" content="img/PassportSizePhoto.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip" href="#main">Skip to content</a>
 
-        <!-- <style>
-            a:link {
-              color: green;
-              background-color: transparent;
-              text-decoration: none;
-            }
-            a:visited {
-              color: pink;
-              background-color: transparent;
-              text-decoration: none;
-            }
-            a:hover {
-              color: red;
-              background-color: transparent;
-              text-decoration: underline;
-            }
-            a:active {
-              color: yellow;
-              background-color: transparent;
-              text-decoration: underline;
-            }
-            </style> -->
-
-
-
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a href="#top" class="brand">VS</a>
+            <nav aria-label="Primary">
+                <ul class="nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-        </header>
-        
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Varun Sridharan</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">Computer Science Graduate</p>
-            <img src="img/PassportSizePhoto.jpg" alt="a picture of me smiling" class="intro__img">
-        </section>
-        
-        <!-- About me -->
-        <section class="about-me" id="about">
-            <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">CS Graduate | ML Research | Seeking full-time opportunities | Arizona State University </p>
-            
-            <div class="about-me__body">
-                <p>I had recently graduated with a Master's Degree in Computer Science and I'm actively looking for full-time opportunities in Software Engineering and Data Science. Please click here for my <a href="https://drive.google.com/file/d/1qmQZVQG5ju3TgZPQgHiEpl6TNAbAP-RJ/view?usp=sharing" class="btn">Unofficial Transcript</a></p>
-                <p>My experience, through my research projects and internships, in the field of Machine Learning (ML) and Computer Vision and Natural Language Processing (NLP) has provided me with the opportunity to work with related software & hardware and to understand the key role of innovations in solving the prevalent societal issues. I have also gained valuable experience in working with technical teams and have often donned the leadership mantle. Please click here to learn more about my skills.<a href="#services" class="btn">My Skills</a></p>
-                <p>I'm an international student on a F-1 (OPT) visa and I have a short period of time to find employment. In light of the recent pandemic situation, my job search has proven to be difficult and I find myself running short on time.</p>
-                <p> Therefore, if any recruiter or fellow engineers out there are reading this, I would really appericiate any guidance or help of any sort. Please click here for my resume. <a href="https://drive.google.com/file/d/1Ikq9WBHmaePWSsS1PrTbXDMF_Z8J3lHD/view?usp=sharing" class="btn">RESUME</a> </p>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero" id="top">
+            <div class="wrap hero-inner">
+                <div class="hero-text">
+                    <p class="eyebrow">Senior Data Scientist · Applied AI Engineer</p>
+                    <h1>Varun Sridharan</h1>
+                    <p class="lede">I take LLM and multi-agent systems from prototype to production, working with customers and business teams to turn messy, real-world problems into deployed AI.</p>
+                    <ul class="stats" aria-label="Highlights">
+                        <li><strong>6+</strong><span>years in ML &amp; software engineering</span></li>
+                        <li><strong>2</strong><span>U.S. patent applications</span></li>
+                        <li><strong>75+</strong><span>citations on published research</span></li>
+                    </ul>
+                    <div class="cta">
+                        <a class="btn btn-primary" href="https://www.linkedin.com/in/varun-sridharan/">LinkedIn</a>
+                        <a class="btn" href="#contact">Get in touch</a>
+                    </div>
+                </div>
+                <img class="hero-photo" src="img/PassportSizePhoto.jpg" alt="Portrait of Varun Sridharan" width="364" height="467">
             </div>
-            
-            <img src="img/full_photo_488x812.jpg" alt="Jane leaning against a bus" class="about-me__img">
-         </section>
-
-
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">My Skills</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Machine Learning</h3>
-                    <p>I have been interested in Machine Learning ever since my undergraduate studies. I started out in ML by
-                        working on small scale projects on my own and then went on to work in Machine Learning Research Labs at Arizona State University. I also have two Data Science Internships.Please view my resume for more details. <a href="https://drive.google.com/file/d/1Ikq9WBHmaePWSsS1PrTbXDMF_Z8J3lHD/view?usp=sharing" class="btn">RESUME</a> </p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>Natural Language Processing (NLP)</h3>
-                    <p>I carried out my NLP research at ASU where I worked on my first research publication. <a href="https://www.researchgate.net/publication/332082181_Exploiting_Emojis_for_Sarcasm_Detection" class="btn">RESEARCH PAPER - "Exploiting Emojis for Sarcasm Detection"</a></p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>Computer Vision</h3>
-                    <p>I worked for a Computer Vision startup where I had the opportunity to work with real-
-                        time object detection models such as YOLO and SSD. The aim of the project was to detect traffic                
-                        intensity throughout a city by applying computer vision techniques on Drone Images / CCTV images.</p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            
-            <!-- <a href="#work" class="btn">My Work</a> -->
-            <p>My other skills include - <h4>Python, Keras, Tensorflow, C, C++, Java, SQL, Django, Flask, MATLAB, scikit-learn, Apache Spark, Hadoop, ROS</h4></p>
         </section>
-        
-        
-        <!-- Footer -->
-        <footer>
-            <!-- replace with your own email address -->
-            <a href="mailto:vsridh19@asu.edu" class="footer__link">Email - vsridh19@asu.edu</a>
-            <ul class="social-list">
-                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/varun-sridharan/">LinkedIn</a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://github.com/vsridh">Github</a></li>
+
+        <!-- About -->
+        <section id="about">
+            <div class="wrap narrow">
+                <h2>About</h2>
+                <p>I'm a Senior Data Scientist in Chicago, building generative AI for the insurance industry. My work spans the whole lifecycle: scoping problems with stakeholders, designing agentic and retrieval-grounded systems, standing up the inference infrastructure they run on, and measuring whether they actually work with rigorous evaluation.</p>
+                <p>Recently I've led customer pilots of a multi-agent claims application with insurance carriers, built a shared LLM inference platform used by multiple product teams, and launched an internal AI coding-assistant platform for 150+ engineers. Before that I shipped computer vision and sensor ML models that run at scale in production.</p>
+                <p>I hold an M.S. in Computer Science from Arizona State University, where I did NLP research.</p>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="alt">
+            <div class="wrap">
+                <h2>Experience</h2>
+                <ol class="timeline">
+                    <li class="role">
+                        <div class="role-head">
+                            <h3>Senior Data Scientist</h3>
+                            <span class="dates">Mar 2026 – Present</span>
+                        </div>
+                        <p class="org">CCC Intelligent Solutions · Chicago, IL</p>
+                        <ul>
+                            <li>Leading the pilot rollout of a multi-agent claims-processing application with 3 insurance carriers, adapting agent workflows (document ingestion, repair estimating, injury analysis, triage) to each carrier's process.</li>
+                            <li>Designed a multi-agent Q&amp;A system on LangGraph and AWS Bedrock AgentCore that decomposes compliance questionnaires and routes them to 4 specialized retrieval agents, cutting turnaround from ~5 days to under 2 hours.</li>
+                            <li>Launched an internal AI coding-assistant platform on self-hosted LLMs, gated by automated tests and agent evals; adopted by 150+ engineers.</li>
+                            <li>Own the team's LLM and agent evaluation framework; mentor interns and junior engineers.</li>
+                        </ul>
+                    </li>
+                    <li class="role">
+                        <div class="role-head">
+                            <h3>Data Scientist</h3>
+                            <span class="dates">Mar 2023 – Mar 2026</span>
+                        </div>
+                        <p class="org">CCC Intelligent Solutions · Chicago, IL</p>
+                        <ul>
+                            <li>Built a production RAG system for injury-claim documents (OCR, indexing, retrieval, cited LLM answers): 50K+ pages/month, 40% less review time, and a patent application.</li>
+                            <li>Migrated 5 product teams from a contended GPU cluster to isolated vLLM deployments: 3x throughput, 45% lower p95 latency, 99.9% uptime.</li>
+                            <li>Co-developed a multimodal assistant for vehicle appraisers combining video analysis, speaker diarization, and LLM extraction; cut appraisal time by 25%.</li>
+                        </ul>
+                    </li>
+                    <li class="role">
+                        <div class="role-head">
+                            <h3>R&amp;D Engineer</h3>
+                            <span class="dates">Sep 2020 – Apr 2023</span>
+                        </div>
+                        <p class="org">CCC Intelligent Solutions · Chicago, IL</p>
+                        <ul>
+                            <li>Co-developed a production Vision Transformer for vehicle-damage classification in an automated estimating pipeline: 96% accuracy on 1M+ images/month.</li>
+                            <li>Built a sensor-based ML model that reduced false positives in a mobile crash-detection product by 30%.</li>
+                        </ul>
+                    </li>
+                    <li class="role role-compact">
+                        <div class="role-head">
+                            <h3>Earlier</h3>
+                        </div>
+                        <ul>
+                            <li><strong>R&amp;D / Data Science Intern</strong>, CCC Intelligent Solutions · 2019</li>
+                            <li><strong>Data Science Intern</strong>, Curl Analytics · 2018: real-time object detection (YOLO, SSD) on drone and CCTV imagery to estimate city traffic density</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Selected work -->
+        <section id="work">
+            <div class="wrap">
+                <h2>What I build</h2>
+                <div class="cards">
+                    <article class="card">
+                        <span class="tag">Agents</span>
+                        <h3>Multi-agent systems</h3>
+                        <p>Orchestrators that decompose a request, delegate to specialized tool-using agents, and consolidate grounded answers, taken from prototype to customer pilots.</p>
+                        <p class="stack">LangGraph · Bedrock AgentCore · MCP · A2A</p>
+                    </article>
+                    <article class="card">
+                        <span class="tag">Retrieval</span>
+                        <h3>Document intelligence &amp; RAG</h3>
+                        <p>End-to-end pipelines from OCR to cited answers over long, messy documents, built with domain experts so the output is trusted in real workflows.</p>
+                        <p class="stack">OCR · Vector databases · Embeddings · Citations</p>
+                    </article>
+                    <article class="card">
+                        <span class="tag">Infrastructure</span>
+                        <h3>LLM inference platforms</h3>
+                        <p>Shared, isolated model serving for multiple teams with clear SLOs and observability, so product teams can ship without fighting over GPUs.</p>
+                        <p class="stack">vLLM · Kubernetes · Prometheus · Grafana</p>
+                    </article>
+                    <article class="card">
+                        <span class="tag">Quality</span>
+                        <h3>Evaluation &amp; guardrails</h3>
+                        <p>Eval suites for prompts, models, and agents that gate releases, plus guardrails for prompt injection and PII and human-in-the-loop review.</p>
+                        <p class="stack">LLM-as-judge · Regression evals · HITL</p>
+                    </article>
+                    <article class="card">
+                        <span class="tag">Multimodal</span>
+                        <h3>Vision, audio &amp; language</h3>
+                        <p>Systems that link evidence across video, speech, and text, plus production computer vision models running on millions of images.</p>
+                        <p class="stack">ViT · Diarization · PyTorch</p>
+                    </article>
+                    <article class="card">
+                        <span class="tag">Dev tools</span>
+                        <h3>AI coding assistants</h3>
+                        <p>An internal coding-agent platform on self-hosted models, rolled out to 150+ engineers with tests and evals as release gates.</p>
+                        <p class="stack">Qwen Code · Self-hosted LLMs</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research -->
+        <section id="research" class="alt">
+            <div class="wrap">
+                <h2>Patents, research &amp; talks</h2>
+                <div class="split">
+                    <div>
+                        <h3>Patents</h3>
+                        <ul class="plain">
+                            <li><strong>Improved Interface for Insurance Claims</strong><br><span class="muted">U.S. patent application, 2024 · LLM extraction and evaluation of injury-claim documents</span></li>
+                            <li><strong>Method and System to Improve Loss Reporting</strong><br><span class="muted">U.S. patent application, 2023 · LLM claim estimation from speech</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Publication</h3>
+                        <ul class="plain">
+                            <li><a href="https://www.researchgate.net/publication/332082181_Exploiting_Emojis_for_Sarcasm_Detection"><strong>Exploiting Emojis for Sarcasm Detection</strong></a><br><span class="muted">J. Subramanian*, V. Sridharan*, K. Shu, H. Liu · SBP-BRiMS 2019 · 75+ citations</span></li>
+                            <li><span class="muted">Reviewer for <em>Scientific Reports</em> and alphaXiv</span></li>
+                        </ul>
+                        <h3>Talks &amp; recognition</h3>
+                        <ul class="plain">
+                            <li>AICamp AI, ML &amp; Data Meetup, Chicago (2024): LLM fine-tuning, evaluation &amp; guardrails</li>
+                            <li>Invited talk, DePaul University iD Lab</li>
+                            <li>1st place, company AWS DeepRacer RL competition (2023)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <div class="wrap">
+                <h2>Toolkit</h2>
+                <dl class="skills">
+                    <div><dt>AI engineering</dt><dd>Multi-agent orchestration, tool calling, RAG, LLM &amp; agent evaluation, guardrails, human-in-the-loop, fine-tuning (LoRA/PEFT)</dd></div>
+                    <div><dt>Platforms</dt><dd>LangGraph, MCP, A2A, AWS Bedrock &amp; AgentCore, vLLM, vector databases, Hugging Face, PyTorch</dd></div>
+                    <div><dt>Infrastructure</dt><dd>AWS, Docker, Kubernetes, Terraform, CI/CD, Prometheus, Grafana</dd></div>
+                    <div><dt>Languages</dt><dd>Python, TypeScript, JavaScript, SQL, Java, C++; FastAPI, Node.js, React</dd></div>
+                </dl>
+                <h3 class="edu-title">Education</h3>
+                <ul class="plain edu">
+                    <li><strong>M.S. Computer Science</strong>, Arizona State University · 2020</li>
+                    <li><strong>B.Tech. Computer Science</strong>, Amrita School of Engineering · 2018</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <div class="wrap">
+            <h2>Let's talk</h2>
+            <p>Open to conversations about applied AI, forward-deployed, and AI engineering roles.</p>
+            <ul class="links">
+                <li><a href="mailto:varunsridharan51@gmail.com">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/varun-sridharan/">LinkedIn</a></li>
+                <li><a href="https://scholar.google.com/citations?user=iz3K8HwAAAAJ">Google Scholar</a></li>
+                <li><a href="https://github.com/vsridh">GitHub</a></li>
             </ul>
-        </footer>
-        
-    </body>
+            <p class="fine">© 2026 Varun Sridharan · Chicago, IL</p>
+        </div>
+    </footer>
+</body>
 </html>
